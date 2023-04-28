@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+:root {
+    --maincolor: #071192;
+    --fontcolor: #2C2C2C;
+    --formcolor: #EEEEEED1;
+    --whitecolor: #ffff;
+    --blackcolor: #0000;
+}
+
+.contaier {
+
+    font-family: 'Heebo', sans-serif;
+    background: transparent url(img/img-bg.png) no-repeat padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1920px;
+    min-height: 1080px;
+
+
+
+}
+
+.move {
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding-right: 200px;
+
+
+
+}
+
+.major-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 90px;
+    gap: 1.25rem;
+    max-width: 300px;
+    background-color: var(--formcolor);
+
+}
+
+.control-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin-bottom: 20px;
+
+}
+
+.header-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    justify-content: space-around;
+}
+
+input {
+    border-style: none;
+    border-bottom: 3px solid var(--maincolor);
+    padding: 10px;
+
+
+}
+
+p,
+#email,
+#fullName {
+    color: var(--fontcolor)
+}
+
+h1 {
+    color: var(--maincolor);
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.button {
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+    padding: 10px;
+    max-width: 130px;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.33px;
+    border-style: none;
+}
+
+
+@media screen and (max-width:1050px) {
+    .contaier {
+        margin: 0;
+
+    }
+
+    .move {
+        padding: 50px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width:320px) {
+
+    .move {
+        min-width: 300px;
+    }
+
+    .major-form {
+        padding: 10;
+    }
+
+}
