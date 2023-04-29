@@ -32,7 +32,7 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    padding-right: 200px;
+    margin-right: 200px;
 
 
 
@@ -106,6 +106,7 @@ h1 {
 
     .move {
         margin: 0 50px;
+
     }
 
 
