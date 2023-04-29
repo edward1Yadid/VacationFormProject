@@ -20,6 +20,7 @@
     background-size: cover;
     max-width: 1920px;
     min-height: 1080px;
+    width: 100%;
 
 
 
@@ -97,15 +98,14 @@ h1 {
 }
 
 
-@media screen and (max-width:1050px) {
+@media screen and (min-width:321px) and (max-width:1050px) {
     .contaier {
         margin: 0;
 
     }
 
     .move {
-        padding: 50px;
-
+        margin: 0 50px;
     }
 
 
@@ -116,11 +116,13 @@ h1 {
 @media screen and (max-width:320px) {
 
     .move {
-        min-width: 300px;
+        width: 270px;
+        margin: auto;
+
     }
 
-    .major-form {
-        padding: 10;
+    .header-form {
+        text-align: right;
     }
 
 }
